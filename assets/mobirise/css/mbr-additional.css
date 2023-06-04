@@ -2670,6 +2670,9 @@ a {
 .cid-tGeVirKl3d img,
 .cid-tGeVirKl3d .item-img {
   width: 100%;
+  height: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 .cid-tGeVirKl3d .item:focus,
 .cid-tGeVirKl3d span:focus {
