@@ -1115,56 +1115,56 @@ a {
     margin-bottom: 2rem;
   }
 }
-.cid-sFzIdnt1ra {
-  padding-top: 8rem;
-  padding-bottom: 1rem;
-  background-color: #fafafa;
-}
-.cid-sFzDdjoEIw {
-  padding-top: 0rem;
-  padding-bottom: 10rem;
-  background: #fafafa;
-}
-.cid-sFzDdjoEIw .list-group-item {
-  background-color: transparent;
-  padding: .5rem 3.25rem;
-}
-.cid-sFzDdjoEIw .plan-body {
-  padding-bottom: 2rem;
-}
-.cid-sFzDdjoEIw .plan-header {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cid-sFzDdjoEIw .price {
-  color: #4479d9;
-}
-.cid-sFzDdjoEIw .plan {
-  word-break: break-word;
+.cid-tGeEEVnVSk {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-sFzDdjoEIw .plan .list-group-item {
+.cid-tGeEEVnVSk img,
+.cid-tGeEEVnVSk .item-img {
+  width: 100%;
+}
+.cid-tGeEEVnVSk .item:focus,
+.cid-tGeEEVnVSk span:focus {
+  outline: none;
+}
+.cid-tGeEEVnVSk .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-tGeEEVnVSk .item-wrapper {
   position: relative;
-  justify-content: center;
-  border: 0;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
 }
-.cid-sFzDdjoEIw .plan .list-group-item::after {
-  position: absolute;
-  bottom: 1px;
-  left: 25%;
-  width: 50%;
-  height: 1px;
-  content: "";
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.cid-sFzDdjoEIw .plan .list-group-item:last-child::after {
-  display: none;
+@media (min-width: 992px) {
+  .cid-tGeEEVnVSk .item-wrapper .item-content {
+    padding: 2rem;
+  }
 }
 @media (max-width: 991px) {
-  .cid-sFzDdjoEIw .plan {
-    margin-bottom: 2rem;
+  .cid-tGeEEVnVSk .item-wrapper .item-content {
+    padding: 1rem;
   }
+}
+.cid-tGeEEVnVSk .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-tGeEEVnVSk .mbr-section-title {
+  color: #232323;
+}
+.cid-tGeEEVnVSk .mbr-text,
+.cid-tGeEEVnVSk .mbr-section-btn {
+  text-align: left;
+}
+.cid-tGeEEVnVSk .item-title {
+  text-align: left;
+}
+.cid-tGeEEVnVSk .item-subtitle {
+  text-align: center;
 }
 .cid-sFCw1qGFAI .navbar-dropdown {
   position: relative !important;
