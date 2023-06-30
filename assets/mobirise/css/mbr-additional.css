@@ -816,11 +816,12 @@ a {
 .cid-tGeEEVnVSk .item-subtitle {
   text-align: center;
 }
-.cid-tHxvgVzy9j .navbar-dropdown {
-  position: relative !important;
+.cid-tHxvgVzy9j {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-tHxvgVzy9j .navbar-dropdown {
-  position: absolute !important;
+.cid-tHxvgVzy9j nav.navbar {
+  position: fixed;
 }
 .cid-tHxvgVzy9j .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -883,7 +884,7 @@ a {
 }
 .cid-tHxvgVzy9j .dropdown-menu,
 .cid-tHxvgVzy9j .navbar.opened {
-  background: #ef8bc3 !important;
+  background: #f249a6 !important;
 }
 .cid-tHxvgVzy9j .nav-item:focus,
 .cid-tHxvgVzy9j .nav-link:focus {
@@ -918,7 +919,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: #ef8bc3;
+  background: #f249a6;
 }
 .cid-tHxvgVzy9j .navbar.opened {
   transition: all 0.3s;
@@ -1058,7 +1059,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tHxvgVzy9j .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ef8bc3;
+  background: #f249a6;
 }
 .cid-tHxvgVzy9j .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1131,6 +1132,7 @@ a {
 }
 .cid-tHxvgVzy9j .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tHxvgVzy9j a.nav-link {
   display: flex;
@@ -2791,11 +2793,12 @@ a {
 .cid-tIfkRz5b4C .item-subtitle {
   text-align: center;
 }
-.cid-tHxvgVzy9j .navbar-dropdown {
-  position: relative !important;
+.cid-tHxvgVzy9j {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-tHxvgVzy9j .navbar-dropdown {
-  position: absolute !important;
+.cid-tHxvgVzy9j nav.navbar {
+  position: fixed;
 }
 .cid-tHxvgVzy9j .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2858,7 +2861,7 @@ a {
 }
 .cid-tHxvgVzy9j .dropdown-menu,
 .cid-tHxvgVzy9j .navbar.opened {
-  background: #ef8bc3 !important;
+  background: #f249a6 !important;
 }
 .cid-tHxvgVzy9j .nav-item:focus,
 .cid-tHxvgVzy9j .nav-link:focus {
@@ -2893,7 +2896,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: #ef8bc3;
+  background: #f249a6;
 }
 .cid-tHxvgVzy9j .navbar.opened {
   transition: all 0.3s;
@@ -3033,7 +3036,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tHxvgVzy9j .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ef8bc3;
+  background: #f249a6;
 }
 .cid-tHxvgVzy9j .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -3106,6 +3109,7 @@ a {
 }
 .cid-tHxvgVzy9j .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tHxvgVzy9j a.nav-link {
   display: flex;
