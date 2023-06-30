@@ -3928,15 +3928,15 @@ a {
     left: -1rem;
   }
 }
-.cid-tIHmFPoopx {
+.cid-tIHBne0LHA {
   padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-bottom: 1rem;
+  background: #ffffff;
 }
-.cid-tIHmFPoopx .mbr-fallback-image.disabled {
+.cid-tIHBne0LHA .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tIHmFPoopx .mbr-fallback-image {
+.cid-tIHBne0LHA .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -3945,14 +3945,67 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-tIHmFPoopx .image-wrapper {
-    margin-bottom: 1rem;
-  }
+.cid-tIHBne0LHA .google-map {
+  height: 30rem;
+  position: relative;
 }
-.cid-tIHmFPoopx .row {
-  flex-direction: row-reverse;
-}
-.cid-tIHmFPoopx img {
+.cid-tIHBne0LHA .google-map iframe {
+  height: 100%;
   width: 100%;
+}
+.cid-tIHBne0LHA .google-map [data-state-details] {
+  color: #6b6763;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-tIHBne0LHA .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-tIHBne0LHA .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.cid-tIHCn6ims3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-tIHCn6ims3 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tIHCn6ims3 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tIHCn6ims3 .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-tIHCn6ims3 .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-tIHCn6ims3 .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #6592e6;
+}
+.cid-tIHCn6ims3 .panel-body,
+.cid-tIHCn6ims3 .card-header {
+  padding: 1rem 0;
+}
+.cid-tIHCn6ims3 .panel-title-edit {
+  color: #000000;
 }
